@@ -1,0 +1,19 @@
+{
+  "name": "gitmeet-backend",
+  "version": "1.0.0",
+  "description": "gitMeet App Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-lsi/GitMeet-Backend.git"
+  },
+  "author": "LSI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dev-lsi/GitMeet-Backend/issues"
+  },
+  "homepage": "https://github.com/dev-lsi/GitMeet-Backend#readme"
+}
