@@ -2,7 +2,7 @@
   "name": "gitmeet-backend",
   "version": "1.0.0",
   "description": "gitMeet App Backend",
-  "main": "index.js",
+  "main": "./src/app.js",
   "scripts": {
     "test": "jest"
   },
