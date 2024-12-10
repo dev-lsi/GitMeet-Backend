@@ -2,9 +2,11 @@
   "name": "gitmeet-backend",
   "version": "1.0.0",
   "description": "gitMeet App Backend",
-  "main": "./src/app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev":"nodemon src/app.js",
+    "start":"node run src/app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/dev-lsi/GitMeet-Backend/issues"
   },
-  "homepage": "https://github.com/dev-lsi/GitMeet-Backend#readme"
+  "homepage": "https://github.com/dev-lsi/GitMeet-Backend#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
